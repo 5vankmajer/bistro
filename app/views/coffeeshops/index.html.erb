@@ -1,0 +1,15 @@
+<div id="main">
+  <h1>Bistro</h1>
+  <h3>Lista de cafecitos amigables.</h3>
+  <div id="coffeeshops">
+    <%- unless @coffeeshops.empty? -%>
+    <ul>
+      <%- @coffeeshops.each do |coffeeshop| -%>
+      <li><%= coffeeshop.name -%></li>
+      <%- end -%>
+    </ul>
+    <%- else -%>
+      <p>Pucha. Aparentemente, no hay un solo lugar amigable en esta ciudad.</p>
+    <%- end -%>
+  </div>
+</div>
