@@ -1,4 +1,4 @@
-bistro
+Bistro
 ======
 
 Flâneur-friendly coffeeshop directory.
